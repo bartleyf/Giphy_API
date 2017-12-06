@@ -30,7 +30,7 @@ $(document).ready(function () {
 
     $(document).on("click", ".cartoon", alertCartoonName);
 
-    $("button").on("click", function () {
+    $(document).on("click", "button", function () {
         var cartoon = $(this).attr("data-name");
         var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
             cartoon + "&api_key=dc6zaTOxFJmzC&limit=10";
