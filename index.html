@@ -7,15 +7,23 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
     <div class="wrapper">
         <div class="title"></div>
         <div class="buttons"></div>
-        <div class="images"></div>
-        <div class="add"></div>
+        <div class="gifs"></div>
+        <div class="add">
+            <form id="cartoon-form">
+                <label for="cartoon-input">Add Cartoon</label>
+                <input type="text" id="cartoon-input">
+                <!-- Button triggers new movie to be added -->
+                <input id="add-cartoon" type="submit" value="Add Cartoon">
+              </form>
+        </div>
     </div>
 </body>
-
+<script src="assets/script.js"></script>
 </html>
